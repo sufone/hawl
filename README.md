@@ -10,3 +10,18 @@ Arabic first then English
 For information… should get a proper book. Wikipedia can do till then
 
 For data, let's start with CSV since it's easy to handle, then convert into a JSON to feed into the codebase
+
+# The data format:
+*The aim is to increase historical awareness and knowledge, in an easy to understand and quick to use way.*
+
+*Its better to collect more data and not use, than to need more information later and rush to find it*
+
+Data types: event, era, person
+
+Properties for each type (required are starred):
+
+Event: Name*, date*, region*, effect (calamity, blessing, neutral), blurb
+
+Era: Name*, start year*, end year*, region*, blurb
+
+Person: Name*, birth year*, death year*, region of birth*, regions of life, fields, affiliation, blurb

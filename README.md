@@ -1,9 +1,10 @@
 # hawl
 
 New plan:
-1. Get data from wikipedia api
+1. Make handcrafted data set, no reliance on api. 
 2. Show the chart
 3. Have custom elements on the page to filter listed people by XYZ.
+4. Make the json into sql to show relations between people
 
 Timeline of scholars, empires and events from history (Arabic, then English)
 
@@ -32,4 +33,4 @@ Event: Name*, date*, region*, effect (calamity, blessing, neutral), blurb
 
 Era: Name*, start year*, end year*, region*, blurb
 
-Person: Name*, birth year*, death year*, region of birth*, regions of life (array: location, arrival, departure), fields, affiliation, blurb
+Person: Name*, birth year*, death year*, region of birth*, regions of life (array: location, arrival, departure), fields, affiliation, blurb, peers (array: relation to other persons), teachers, students 

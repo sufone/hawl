@@ -1,4 +1,10 @@
 # hawl
+
+New plan:
+1. Get data from wikipedia api
+2. Show the chart
+3. Have custom elements on the page to filter listed people by XYZ.
+
 Timeline of scholars, empires and events from history (Arabic, then English)
 
 Google charts (https://developers.google.com/chart/interactive/docs/gallery/timeline) seems best option, though D3 was tempting. Other libraries don't support timelines
@@ -11,7 +17,9 @@ For information… should get a proper book. Wikipedia can do till then
 
 For data, let's start with CSV since it's easy to handle, then convert into a JSON to feed into the codebase
 
-# The data format:
+
+
+# The nativr data format:
 *The aim is to increase historical awareness and knowledge, in an easy to understand and quick to use way.*
 
 *Its better to collect more data and not use, than to need more information later and rush to find it*

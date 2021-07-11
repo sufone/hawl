@@ -1,0 +1,33 @@
+let scholarsList = [
+	{
+		name: "Fulan",
+		birth: Date.parse("1970"),
+		death: Date.parse("2021"),
+		regionOfBirth: "Machu",
+		regionsOfLife: [
+			{
+				location: "Pichu",
+				arrivalDate: Date.parse("2000"),
+				departureDate: Date.parse("2020"),
+			},
+		],
+		fields: ["gardening", "carpentry"],
+		affiliations: ["the guild of watering"],
+		blurb: "He was a great farmer and one with nature.",
+		teachers: [
+			{
+				name: ""
+			}
+		],		
+		peers: [
+			{
+				name: ""
+			}
+		],	
+		students: [
+			{
+				name: ""
+			}
+		],	
+	},
+]

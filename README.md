@@ -2,7 +2,7 @@
 
 New plan:
 1. Make handcrafted data set, no reliance on api. 
-2. Show the chart
+2. Show the chart, made using normal elements. yes, see (this)[https://medium.com/@PepsRyuu/why-i-no-longer-use-d3-js-b8288f306c9a]
 3. Have custom elements on the page to filter listed people by XYZ.
 4. Make the json into sql to show relations between people
 

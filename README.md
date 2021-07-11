@@ -24,4 +24,4 @@ Event: Name*, date*, region*, effect (calamity, blessing, neutral), blurb
 
 Era: Name*, start year*, end year*, region*, blurb
 
-Person: Name*, birth year*, death year*, region of birth*, regions of life, fields, affiliation, blurb
+Person: Name*, birth year*, death year*, region of birth*, regions of life (array: location, arrival, departure), fields, affiliation, blurb
